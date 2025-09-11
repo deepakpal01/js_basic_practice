@@ -1,6 +1,6 @@
 // const { log } = require("document/lib/lang");
 
-const { log } = require("document/lib/lang");
+// const { log } = require("document/lib/lang");
 
 // Multiplication Table using for loop
 // function table(num){
@@ -129,3 +129,16 @@ const { log } = require("document/lib/lang");
 // }
 
 // Pattern(6)
+
+// fibona serice
+function fibona(num){
+    let a=0,b=1,temp;
+    if(num == 0) return 0;
+    for(let i=2;i<num;i++){
+        temp = a+b;
+        a=b;
+        b=temp;
+    }
+    return b;
+}
+console.log(fibona(8));
