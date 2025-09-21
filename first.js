@@ -3,6 +3,10 @@
 // }
 // console.log(simple());
 
+const { log } = require("document/lib/lang");
+
+// const { log } = require("document/lib/lang");
+
 
 // function withParamerter(par1,par2){
 //     return par1+par2;
@@ -227,3 +231,81 @@
 // }
 // let res = sum(1,2,3,4,5,6,7,7,8,9);
 // console.log(res);
+
+
+// find the words in string 
+// function str(s){
+//     if(s=="") return "plz eneter the string any words:"
+//     let obj = {};
+//     let st = s.split("");
+//     for (const key of st) {
+//         obj[key]=(obj[key]||0)+1
+//     }
+//     return obj;
+
+// }
+// console.log(str("heoif sdfhsidf dflh"));
+
+// how to check the tempreture and convert the temperacture
+
+// find the number is armstrong or not
+// function arm(num) {
+//     let sum = 0;
+//     let store = num;
+//     while(num>0) {
+//         let rem = num % 10;
+//         sum += rem ** 3;
+//         num = Math.floor(num / 10);
+//     }
+//     if (store ==sum)return "armstrong";
+//     else  return "not armstrong"
+//     }
+    
+// console.log(arm(13));
+
+
+// number of pyramid
+// char kitni baar print hua h 
+// function char(str){
+//     let obj = {};
+//    let str1 = str.split("");
+//     for(let key of str1){
+//      obj[key]  = (obj[key]||0)+1;
+//     }
+//     return obj;
+// }
+
+// console.log(char("hlels dhf"));
+
+
+// function perfect(num){
+//     let numq=num;
+//     let sum = 0;
+//     let diviser = [];
+//     for(let i=1;i<num;i++){
+//         if(num%i==0){
+//         diviser.push(i);
+//         sum+=i;        
+//         }
+//     }
+//     if(sum==numq) return "this is a perfect number"
+//     else return "not perfect";
+//     return diviser
+// }
+// console.log(perfect(7));
+
+// how to find the index of string in array
+
+// function findingindex(str){
+//     let arr = [];
+//     let str1 = str.split(" ");
+//     for(let i=0;i<str1.length;i++){
+//         // arr.push(str1.indexOf("hello"));
+//         if(str1[i]==="hello"){
+
+//         } 
+//     }
+//     return arr;
+// }
+// console.log(findingindex("hello i am deepak and hello going eith hello"));
+
